@@ -1,0 +1,43 @@
+/*
+ *	CSS code for the TinyMCE editor in the dashboard
+ */
+
+/* Main wrapper of the grid */
+.wp_post_image_grid {
+	background: #fafafa;
+	border: 1px solid #e5e5e5;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+	width: 100%;
+}
+/* Grid element */
+.wp_post_image_grid_element {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #e5e5e5;
+	float: left;
+	position: relative;
+	width: 33.333333%;
+}
+/* Image used for creating square and equal blocks */
+.wp_post_image_grid_element > img {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+/* Overlay div which will be used to load the background image */
+.wp_post_image_grid_element > div {
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+/* Empty state for the overlay div */
+.wp_post_image_grid_element > div.empty:before {
+	content: "Empty";
+}
