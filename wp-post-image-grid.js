@@ -12,10 +12,10 @@
             icon: 'icon dashicons-schedule',
             // onclick event of the button
             onclick: function() {
-            	var img_1x1 = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==';
- 				var output = '<div class="wp_post_image_grid"><div class="wp_post_image_grid_element"><img src="'+img_1x1+'" class="image"><div class="empty"></div></div><div class="wp_post_image_grid_element"><img src="'+img_1x1+'" class="image"><div class="empty"></div></div><div class="wp_post_image_grid_element"><img src="'+img_1x1+'" class="image"><div class="empty"></div></div></div>';
+            	var img_1x1 = '../wp-content/plugins/wp-post-image-grid/1x1.png';
+ 				var output = '<div class="wp_post_image_grid" contenteditable="false"><div class="wp_post_image_grid_element"><img src="'+img_1x1+'" class="image" alt="img" /><div class="empty"></div></div><div class="wp_post_image_grid_element"><img src="'+img_1x1+'" class="image" alt="img" /><div class="empty"></div></div><div class="wp_post_image_grid_element"><img src="'+img_1x1+'" class="image" alt="img" /><div class="empty"></div></div></div>';
+ 				
  				// insert text to the editor
- 				// ToDo: find a method to put into editor unmodified code
  				editor.insertContent(output);
            	}
         })

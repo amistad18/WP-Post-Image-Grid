@@ -33,11 +33,29 @@
 	background-size: cover;
 	background-position: center center;
 	height: 100%;
+	left: 0;
 	position: absolute;
+	top: 0;
 	width: 100%;
 	z-index: 1;
 }
 /* Empty state for the overlay div */
+.wp_post_image_grid_element > div.empty {
+	cursor: pointer;
+}
 .wp_post_image_grid_element > div.empty:before {
-	content: "Empty";
+	content: "\f502";
+	display: block;
+	font: 400 64px/1 dashicons;
+	height: 64px;
+	left: 50%;
+	margin: -32px 0 0 -32px;
+	padding: 0;
+	position: absolute;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	top: 50%;
+	vertical-align: top;
+	width: 64px;
 }
