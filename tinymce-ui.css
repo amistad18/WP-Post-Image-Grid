@@ -16,3 +16,103 @@ i.mce-i-icon {
 	margin-left: -2px;
 	padding-right: 2px
 }
+
+/* Grid select popup */
+.mce-image-grid-layout.mce-window .mce-window-head {
+	border-bottom: 0px;
+}
+
+.mce-image-grid-layout.mce-window .mce-window-head .mce-title {
+	font-size: 22px;
+    font-weight: 600;
+	padding: 8px 18px 0px;
+}
+
+.mce-image-grid-layout .mce-image-grids {
+	display: block;
+	width: auto;
+	overflow: auto;
+}
+
+.mce-image-grid-layout .mce-image-grids h6 {
+	color: #222;
+    font-weight: 700;
+    font-size: 14px;
+	border-bottom: 1px solid #DDD;
+	padding: 4px 18px 4px 8px;
+	margin-top: 8px;
+	display: inline-block;
+}
+
+.mce-image-grid-layout .mce-image-grids .image-grids-conteiner {
+	width: auto;
+	display: block;
+	overflow: auto;
+}
+
+.mce-image-grid-layout .mce-image-grids .image-grids-conteiner .image-grid {
+	width: 120px;
+	height: 120px;
+	background: #EBEBEB;
+	border: #C1C1C1;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1) inset, 0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+	cursor: pointer;
+	margin: 8px;
+	padding: 8px;
+	float: left;
+}
+
+.mce-image-grid-layout .mce-image-grids .image-grids-conteiner .image-grid .image-grid-template {
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-image: url('grid_templates.png');
+}
+
+.mce-image-grid-layout .mce-image-grids .image-grids-conteiner .image-grid:hover {
+	box-shadow: 0 0 0 1px #fff, 0 0 0 5px #1e8cbe;
+}
+
+.mce-image-grid-layout .mce-image-grids .image-grids-conteiner .image-grid:hover > .image-grid-template {
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1) inset, 0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+}
+
+#image-grid-template-2 {
+	background-position: 0px 0px;
+}
+
+#image-grid-template-11 {
+	background-position: 0px -120px;
+}
+
+#image-grid-template-21 {
+	background-position: 0px -240px;
+}
+
+#image-grid-template-12 {
+	background-position: 0px -360px;
+}
+
+#image-grid-template-_21 {
+	background-position: 0px -480px;
+}
+
+#image-grid-template-_12 {
+	background-position: 0px -600px;
+}
+
+#image-grid-template-22 {
+	background-position: 0px -720px;
+}
+
+#image-grid-template-121 {
+	background-position: 0px -840px;
+}
+
+#image-grid-template-31 {
+	background-position: 0px -960px;
+}
+
+#image-grid-template-13 {
+	background-position: 0px -1080px;
+}
