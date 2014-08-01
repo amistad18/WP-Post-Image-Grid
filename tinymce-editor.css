@@ -9,6 +9,7 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	margin: 10px 0;
 	overflow: hidden;
 	width: 100%;
 }
@@ -23,7 +24,11 @@
 	width: 33.333333%;
 }
 /* Image used for creating square and equal blocks */
-.wp_post_image_grid_element > img {
+.wp_post_image_grid_element p {
+	margin: 0;
+	padding: 0;
+}
+.wp_post_image_grid_element img {
 	display: block;
 	height: auto;
 	width: 100%;

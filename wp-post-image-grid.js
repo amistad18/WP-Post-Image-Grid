@@ -160,7 +160,7 @@
 					onclick: function(e) {
 						var target = e.target;
 						var img_1x1 = '../wp-content/plugins/wp-post-image-grid/1x1.png';
-						var output = '<div class="wp_post_image_grid" contenteditable="false"><div class="wp_post_image_grid_element"><img src="'+img_1x1+'" class="image" alt="img" /><div class="empty"></div></div><div class="wp_post_image_grid_element"><img src="'+img_1x1+'" class="image" alt="img" /><div class="empty"></div></div><div class="wp_post_image_grid_element"><img src="'+img_1x1+'" class="image" alt="img" /><div class="empty"></div></div></div>';
+						var output = '<div class="wp_post_image_grid" contenteditable="false"><div class="wp_post_image_grid_element"><img src="'+img_1x1+'" class="image" alt="img" /><div class="empty"></div></div><div class="wp_post_image_grid_element"><img src="'+img_1x1+'" class="image" alt="img" /><div class="empty"></div></div><div class="wp_post_image_grid_element"><img src="'+img_1x1+'" class="image" alt="img" /><div class="empty"></div></div></div>&nbsp;';
 
 						console.log(e);
 						if ( target.nodeName === "DIV" ) {
